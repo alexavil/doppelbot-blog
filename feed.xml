@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://doppelbot.jsbox.xyz">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://doppelbot.jsbox.xyz/">
     <title>Digital Garden</title>
-    <link href="https://doppelbot.jsbox.xyz/feed.xml" rel="self" >
-    <link href="https://doppelbot.jsbox.xyz" >
-    <updated>2025-04-01T16:42:37Z</updated>
-    <id>https://doppelbot.jsbox.xyz</id>
+    <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
+    <link href="https://doppelbot.jsbox.xyz/" >
+    <updated>2025-04-01T16:42:42Z</updated>
+    <id>https://doppelbot.jsbox.xyz/</id>
 </feed>
