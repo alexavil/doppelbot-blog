@@ -1,8 +1,51 @@
 ---
-{"dg-publish":true,"permalink":"/update-history/"}
+{"dg-publish":true,"permalink":"/update-history/","created":"2025-03-29T23:11:14.753+04:00"}
 ---
 
 These patch notes are preserved for historic purposes.
+
+### DoppelBot Anniversary Update, Part 1
+
+#### General
+
+- ***BREAKING CHANGE / NEW FEATURE:*** Removed text-based commands. Most existing commands can now be executed with the newest Discord features including, slash commands, buttons, modals and menus. 
+- ***BREAKING CHANGE / NEW FEATURE:*** Instance owners can now customize DoppelBot's name, avatar, games and other settings without the Developer Portal. 
+	- [To edit the settings, please see this example file.](https://raw.githubusercontent.com/alexavil/DoppelBot/refs/heads/master/.env.example)
+- You can now add multiple responses for a tag.
+	- Please use the following format:
+	  `response1`
+	  `---`
+	  `response2`
+	- Responses will be chosen randomly.
+- All tags can now be managed and wiped separately from settings.
+- Settings and tags embeds now update automatically.
+- Removed Backup/Restore.
+
+#### Music Player Changes
+
+- ***NEW FEATURE:*** The bot can now play local music files.
+	- Local files must be uploaded to the bot's music cache.
+	- The bot currently accepts `*.flac`, `*.mp3`, `*.ogg`, `*.wav`, and `*.m4a` files. More file types will be added in the future updates.
+	- Files can be uploaded via the new `/upload` command or when you select a track to play.
+	- Due to Discord's limitations, you can upload one file at a time. However, you can select multiple tracks to play from the cache.
+	- Files can be accessed by all guilds and will stay in the cache indefinitely. There is currently no cache size limitation.
+	- Instance owners can wipe the cache at any time. Wiping the cache will disconnect all active players.
+- ***NOTE:*** Online functionality is currently unavailable and will be restored in Part 2 of this update.
+- Play, pause, stop, seek and skip can now be used with a single `/controls` command.
+	 ![controls-command.png](/img/user/Attachments/controls-command.png)
+- You can no longer skip if there's only one track in the queue. Use the Stop button instead.
+	- Skip is greyed out in the controls panel to indicate this.
+- `/queue` now includes the name of the current server.
+- Improved stability and performance.
+- Changed radio transmission frequency to comply with federal and state spectrum management regulations.
+
+#### Technical Changes
+
+- Sentry now collects performance data, as well as bugs.
+	- Sentry reporting can now be toggled on and off.
+	- In Debug Mode, Sentry reporting is always on.
+- Improved Realtek Mode and DoppelBot Account support.
+- 
 #### DoppelBot Update - April 16, 2023
 
 - All servers now start with the healthiest API-enabled instance by default.
