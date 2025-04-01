@@ -120,7 +120,7 @@ Thanks for supporting us!
 - Removed the Ina Unravel response.
 - Updated localization files.
 
-#### DoppelBot Update - May 2, 2021:
+#### DoppelBot Update - May 2, 2021
 
 - New initiative: Server Settings.
 	- Responses and bot prefix can now be configured per guild (more options coming soon!).
