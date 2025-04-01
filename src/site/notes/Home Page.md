@@ -11,8 +11,7 @@ Welcome to the future. Welcome… to a "blog". Feel free to explore our collecti
 > [!info]
 > Use the Search Bar or the links below to navigate.
 
-Check out our recent posts:
-- [[Update History\|Update History]]: (11:11 PM - March 29, 2025)
+View the [[Update History\|Update History]] or check out our recent posts:
 
 { .block-language-dataview}
 
