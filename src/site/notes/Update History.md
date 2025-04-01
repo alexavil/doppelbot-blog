@@ -45,15 +45,14 @@ These patch notes are preserved for historic purposes.
 	- Sentry reporting can now be toggled on and off.
 	- In Debug Mode, Sentry reporting is always on.
 - Improved Realtek Mode and DoppelBot Account support.
-- 
-#### DoppelBot Update - April 16, 2023
+### DoppelBot Update - April 16, 2023
 
 - All servers now start with the healthiest API-enabled instance by default.
 - Admins are now allowed to pick the best default instance by typing `d!instance best`.
 - Optimized adding large playlists.
 - Added `d!seek`, which will show the current position in a song, and its total length.
 
-#### DoppelBot Anniversary Update 2023 - April 15, 2023
+### DoppelBot Anniversary Update 2023 - April 15, 2023
 
 - **BREAKING CHANGE:** Added the new music module - InvidJS. 
 	- You are allowed to use any public Invidious instance with API access.
@@ -75,11 +74,11 @@ These patch notes are preserved for historic purposes.
 - Invalid settings are now wiped automatically.
 - Other bug fixes and QOL improvements.
 
-#### DoppelBot Update - 13 March 2023 
+### DoppelBot Update - 13 March 2023 
 
 - Updated the engine to the latest version. This fixes the VC connections cutting off.
 
-#### DoppelBot Update - 22 February 2023
+### DoppelBot Update - 22 February 2023
 
 Fixed errors reported by Sentry:
 - Age-restricted videos are no longer allowed to be added to the queue.
@@ -90,7 +89,7 @@ General changes:
 - `d!tags list` is now available to all members and will not send an empty embed if there are no tags on the server.
 - Ported `d!adminhelp` from Classic DoppelBot (alias: `d!ahelp`)
 
-#### DoppelBot Update - 20 February 2023
+### DoppelBot Update - 20 February 2023
 
 Service Changes:
 - DoppelBot will now automatically report errors. **This does not collect any server data, so you are not required to give your consent.**
@@ -104,7 +103,7 @@ General:
 - Each tag requires a key phrase and a response. Tags can't start with a guild prefix or mention.
 - Guild prefix is now visible in `d!settings`. You can no longer use `d!prefix` to view it.
 
-#### DoppelBot Update - 12 February 2023
+### DoppelBot Update - 12 February 2023
 
 **Service Changes:**
 - Service Notifications are now opt-in by default.
@@ -116,7 +115,7 @@ General:
 - Disconnect timeout can now be set per server with `d!timeout` (accepts values in seconds)
 - Ported `d!settings` from Classic DoppelBot.
 
-#### DoppelBot Update - February 7th, 2023
+### DoppelBot Update - February 7th, 2023
 
 This update includes some changes, that will be applied as soon as the bot restarts.
 
@@ -125,8 +124,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
 
 This update also features Quality of Life changes and bug fixes.
 
-
-#### DoppelBot Update - April 1, 2022
+### DoppelBot Update - April 1, 2022
 
 This updates includes some important changes, and will be applied as soon as the bot restarts.
 
@@ -143,7 +141,8 @@ We would also like to inform users that it feels like I've become Legacy. Today 
 
 Thanks for supporting us!
 
-#### DoppelBot Update - October 20, 2021
+### DoppelBot Update - October 20, 2021
+
 - Fixed some cases of Engrish
 - Added aliases for some commands
 	- d!play = d!p
@@ -152,7 +151,7 @@ Thanks for supporting us!
 	- Toggle commands take the last part as alias
 - Changed radio transmission frequency to comply with federal and state spectrum management regulations.
 
-#### DoppelBot Update - May 14, 2021
+### DoppelBot Update - May 14, 2021
 
 - New Feature: Word Filter
 	- Configurable per guild.
@@ -163,7 +162,7 @@ Thanks for supporting us!
 - Removed the Ina Unravel response.
 - Updated localization files.
 
-#### DoppelBot Update - May 2, 2021
+### DoppelBot Update - May 2, 2021
 
 - New initiative: Server Settings.
 	- Responses and bot prefix can now be configured per guild (more options coming soon!).
