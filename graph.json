@@ -1,1 +1,1 @@
-{"homeAlias":"/","nodes":{},"links":[]}
+{"homeAlias":"/","nodes":{"/":{"id":0,"title":"Home Page","url":"/","group":"none","home":true,"outBound":["/update-history/"],"neighbors":["/update-history/"],"backLinks":["/update-history/"],"noteIcon":"","hide":false,"size":1},"/update-history/":{"id":1,"title":"Update History","url":"/update-history/","group":"none","home":false,"outBound":["/"],"neighbors":["/"],"backLinks":["/"],"noteIcon":"","hide":false,"size":1}},"links":[{"source":0,"target":1},{"source":1,"target":0}]}

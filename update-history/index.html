@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Update History</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.d92311c2.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Digital Garden</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<p>These patch notes are preserved for historic purposes.</p>
+<h4 id="doppel-bot-update-april-16-2023" tabindex="-1">DoppelBot Update - April 16, 2023</h4>
+<ul>
+<li>All servers now start with the healthiest API-enabled instance by default.</li>
+<li>Admins are now allowed to pick the best default instance by typing <code>d!instance best</code>.</li>
+<li>Optimized adding large playlists.</li>
+<li>Added <code>d!seek</code>, which will show the current position in a song, and its total length.</li>
+</ul>
+<h4 id="doppel-bot-anniversary-update-2023-april-15-2023" tabindex="-1">DoppelBot Anniversary Update 2023 - April 15, 2023</h4>
+<ul>
+<li><strong>BREAKING CHANGE:</strong> Added the new music module - InvidJS.
+<ul>
+<li>You are allowed to use any public Invidious instance with API access.</li>
+<li>For searching, YouTube links and Video IDs, DoppelBot will try to fetch the source via a default instance.</li>
+<li>Admins can set their preferred default instance via <code>d!instance</code>.</li>
+<li>Admins can set the preferred minimum instance health via <code>d!health</code>. Default is <code>75</code>. If a provided instance has health below that point, you will be sent a warning.</li>
+</ul>
+</li>
+<li><strong>BREAKING CHANGE:</strong> You can now loop a track using <code>d!loop</code>. Looped tracks will play indefinitely until skipped, stopped or unlooped.</li>
+<li><strong>BREAKING CHANGE:</strong> The music code was re-written entirely. All commands are now separated, as in Classic DoppelBot.</li>
+<li><strong>BREAKING CHANGE:</strong> You can only stop the bot or skip a track if you're the only user left in the VC. Admins are immune to this restriction.</li>
+<li>You can now queue entire playlists at once.</li>
+<li>You can now fetch search suggestions using <code>d!suggest</code>. This command does not require being in a voice channel.</li>
+<li>Made the music module more verbose by reporting actual errors.</li>
+<li>Added Debug Mode. It allows anyone who's running a copy of DoppelBot to receive verbose logs, and only intended to be used in testing environments.</li>
+<li>Revamped <code>d!settings</code> - every option is now explained.</li>
+<li>Admins now have more options of managing their server settings and tags.
+<ul>
+<li><code>d!backup</code> will output a JSON file with all your settings and tags.</li>
+<li><code>d!restore</code> will allow you to restore a previous backup.</li>
+<li><code>d!defaults</code> will allow you to reset your settings and tags.</li>
+</ul>
+</li>
+<li>Invalid settings are now wiped automatically.</li>
+<li>Other bug fixes and QOL improvements.</li>
+</ul>
+<h4 id="doppel-bot-update-13-march-2023" tabindex="-1">DoppelBot Update - 13 March 2023</h4>
+<ul>
+<li>Updated the engine to the latest version. This fixes the VC connections cutting off.</li>
+</ul>
+<h4 id="doppel-bot-update-22-february-2023" tabindex="-1">DoppelBot Update - 22 February 2023</h4>
+<p>Fixed errors reported by Sentry:</p>
+<ul>
+<li>Age-restricted videos are no longer allowed to be added to the queue.</li>
+<li>Implement sanity checks in the music module.</li>
+</ul>
+<p>General changes:</p>
+<ul>
+<li>Edited <code>d!about</code> with a tags notice.</li>
+<li><code>d!tags list</code> is now available to all members and will not send an empty embed if there are no tags on the server.</li>
+<li>Ported <code>d!adminhelp</code> from Classic DoppelBot (alias: <code>d!ahelp</code>)</li>
+</ul>
+<h4 id="doppel-bot-update-20-february-2023" tabindex="-1">DoppelBot Update - 20 February 2023</h4>
+<p>Service Changes:</p>
+<ul>
+<li>DoppelBot will now automatically report errors. <strong>This does not collect any server data, so you are not required to give your consent.</strong></li>
+</ul>
+<p>General:</p>
+<ul>
+<li>Responses from Classic DoppelBot are back and can now be set per server with <code>d!tags</code>.</li>
+<li>All commands:<br>
+<code>d!tags create</code> - Creates a tag (alias: <code>d!t c</code>)<br>
+<code>d!tags list</code> - Lists all server tags (alias: <code>d!t l</code>)<br>
+<code>d!tags delete</code> - Creates a tag (alias: <code>d!t d</code>)</li>
+<li>Each tag requires a key phrase and a response. Tags can't start with a guild prefix or mention.</li>
+<li>Guild prefix is now visible in <code>d!settings</code>. You can no longer use <code>d!prefix</code> to view it.</li>
+</ul>
+<h4 id="doppel-bot-update-12-february-2023" tabindex="-1">DoppelBot Update - 12 February 2023</h4>
+<p><strong>Service Changes:</strong></p>
+<ul>
+<li>Service Notifications are now opt-in by default.</li>
+<li>Reduced the amount of permission checks.</li>
+</ul>
+<p><strong>General:</strong></p>
+<ul>
+<li>Added the pause command, which will pause the current track.</li>
+<li>Added aliases to several commands: e.g. <code>d!music play</code> = <code>d!m p</code>, <code>d!music queue</code> = <code>d!m q</code>, <code>d!music skip</code> = <code>d!m s</code></li>
+<li>Disconnect timeout can now be set per server with <code>d!timeout</code> (accepts values in seconds)</li>
+<li>Ported <code>d!settings</code> from Classic DoppelBot.</li>
+</ul>
+<h4 id="doppel-bot-update-february-7th-2023" tabindex="-1">DoppelBot Update - February 7th, 2023</h4>
+<p>This update includes some changes, that will be applied as soon as the bot restarts.</p>
+<p><strong><em><strong>Queue has finally been added!</strong></em></strong><br>
+You can now put multiple songs in DoppelBot for it to play. No more fighting for getting a song into DoppelBot!</p>
+<p>This update also features Quality of Life changes and bug fixes.</p>
+<h4 id="doppel-bot-update-april-1-2022" tabindex="-1">DoppelBot Update - April 1, 2022</h4>
+<p>This updates includes some important changes, and will be applied as soon as the bot restarts.</p>
+<ul>
+<li>Fixed some commands take the knowledge?</li>
+<li>Fixed some features.</li>
+<li>Fixed some comply with Arle, I wonder?</li>
+<li>Defeatings, and can be turned on across all guilds, as well as overhaul of some feature: Word Filter</li>
+<li>Toggle configurable per guild (more on, other responses include transmission frequency to commands)</li>
+<li>By default, Ace Attorney responses include Realtek and off at any time.</li>
+<li>Added aliases for some cases for May 2, 2021</li>
+<li>Responses are off, mention frequency to commands are off, and prefix can now be configured per guilds by default.</li>
+</ul>
+<p>We would also like to inform users that it feels like I've become Legacy. Today you will include Realtek and Ina Unravel responses are on, other bots' mentions.</p>
+<p>Thanks for supporting us!</p>
+<h4 id="doppel-bot-update-october-20-2021" tabindex="-1">DoppelBot Update - October 20, 2021</h4>
+<ul>
+<li>Fixed some cases of Engrish</li>
+<li>Added aliases for some commands
+<ul>
+<li>d!play = d!p</li>
+<li>d!about = d!help</li>
+<li>d!setprefix = d!prefix</li>
+<li>Toggle commands take the last part as alias</li>
+</ul>
+</li>
+<li>Changed radio transmission frequency to comply with federal and state spectrum management regulations.</li>
+</ul>
+<h4 id="doppel-bot-update-may-14-2021" tabindex="-1">DoppelBot Update - May 14, 2021</h4>
+<ul>
+<li>New Feature: Word Filter
+<ul>
+<li>Configurable per guild.</li>
+<li>By default, it's <strong>on</strong> across all guilds, and can be turned on and off at any time.</li>
+<li><code>https://discordgift.site/</code> is banned across all guilds by default.</li>
+</ul>
+</li>
+<li>Separated regular and administrator commands
+<ul>
+<li>Administrator commands are now available via <code>d!admhelp</code></li>
+</ul>
+</li>
+<li>Removed the Ina Unravel response.</li>
+<li>Updated localization files.</li>
+</ul>
+<h4 id="doppel-bot-update-may-2-2021" tabindex="-1">DoppelBot Update - May 2, 2021:</h4>
+<ul>
+<li>New initiative: Server Settings.
+<ul>
+<li>Responses and bot prefix can now be configured per guild (more options coming soon!).</li>
+<li>By default, Ace Attorney responses are <strong>off</strong>, mention responses are <strong>on</strong>, other responses are <strong>off</strong>, and prefix is set to &quot;d!&quot;.</li>
+<li>Other responses include Realtek and Ina Unravel responses.</li>
+</ul>
+</li>
+<li>DoppelBot no longer listens to DMs or other bots' mentions.</li>
+<li>Updated localization files.</li>
+</ul>
+<p><a class="internal-link" target="" data-note-icon="" href="/">Home</a></p>
+</main>
+<aside>
+<div class="sidebar">
+<div class="sidebar-container">
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#doppel-bot-update-april-16-2023">DoppelBot Update - April 16, 2023</a>
+</li>
+<li><a href="#doppel-bot-anniversary-update-2023-april-15-2023">DoppelBot Anniversary Update 2023 - April 15, 2023</a>
+</li>
+<li><a href="#doppel-bot-update-13-march-2023">DoppelBot Update - 13 March 2023</a>
+</li>
+<li><a href="#doppel-bot-update-22-february-2023">DoppelBot Update - 22 February 2023</a>
+</li>
+<li><a href="#doppel-bot-update-20-february-2023">DoppelBot Update - 20 February 2023</a>
+</li>
+<li><a href="#doppel-bot-update-12-february-2023">DoppelBot Update - 12 February 2023</a>
+</li>
+<li><a href="#doppel-bot-update-february-7th-2023">DoppelBot Update - February 7th, 2023</a>
+</li>
+<li><a href="#doppel-bot-update-april-1-2022">DoppelBot Update - April 1, 2022</a>
+</li>
+<li><a href="#doppel-bot-update-october-20-2021">DoppelBot Update - October 20, 2021</a>
+</li>
+<li><a href="#doppel-bot-update-may-14-2021">DoppelBot Update - May 14, 2021</a>
+</li>
+<li><a href="#doppel-bot-update-may-2-2021">DoppelBot Update - May 2, 2021:</a>
+</li>
+</ol>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
