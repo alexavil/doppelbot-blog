@@ -3,14 +3,14 @@
     <title>DoppelBot</title>
     <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
     <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-04-01T19:03:40Z</updated>
+    <updated>2025-04-01T19:07:42Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-04-01T19:03:32Z</updated>
+            <updated>2025-04-01T19:07:29Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
@@ -69,16 +69,15 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Improved Realtek Mode and DoppelBot Account support.&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;doppel-bot-update-april-16-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - April 16, 2023&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-update-april-16-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - April 16, 2023&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;All servers now start with the healthiest API-enabled instance by default.&lt;/li&gt;
 &lt;li&gt;Admins are now allowed to pick the best default instance by typing &lt;code&gt;d!instance best&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Optimized adding large playlists.&lt;/li&gt;
 &lt;li&gt;Added &lt;code&gt;d!seek&lt;/code&gt;, which will show the current position in a song, and its total length.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;doppel-bot-anniversary-update-2023-april-15-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Anniversary Update 2023 - April 15, 2023&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-anniversary-update-2023-april-15-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Anniversary Update 2023 - April 15, 2023&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;BREAKING CHANGE:&lt;/strong&gt; Added the new music module - InvidJS.
 &lt;ul&gt;
@@ -106,11 +105,11 @@
 &lt;li&gt;Invalid settings are now wiped automatically.&lt;/li&gt;
 &lt;li&gt;Other bug fixes and QOL improvements.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;doppel-bot-update-13-march-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - 13 March 2023&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-update-13-march-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - 13 March 2023&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Updated the engine to the latest version. This fixes the VC connections cutting off.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;doppel-bot-update-22-february-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - 22 February 2023&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-update-22-february-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - 22 February 2023&lt;/h3&gt;
 &lt;p&gt;Fixed errors reported by Sentry:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Age-restricted videos are no longer allowed to be added to the queue.&lt;/li&gt;
@@ -122,7 +121,7 @@
 &lt;li&gt;&lt;code&gt;d!tags list&lt;/code&gt; is now available to all members and will not send an empty embed if there are no tags on the server.&lt;/li&gt;
 &lt;li&gt;Ported &lt;code&gt;d!adminhelp&lt;/code&gt; from Classic DoppelBot (alias: &lt;code&gt;d!ahelp&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;doppel-bot-update-20-february-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - 20 February 2023&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-update-20-february-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - 20 February 2023&lt;/h3&gt;
 &lt;p&gt;Service Changes:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;DoppelBot will now automatically report errors. &lt;strong&gt;This does not collect any server data, so you are not required to give your consent.&lt;/strong&gt;&lt;/li&gt;
@@ -137,7 +136,7 @@
 &lt;li&gt;Each tag requires a key phrase and a response. Tags can&#39;t start with a guild prefix or mention.&lt;/li&gt;
 &lt;li&gt;Guild prefix is now visible in &lt;code&gt;d!settings&lt;/code&gt;. You can no longer use &lt;code&gt;d!prefix&lt;/code&gt; to view it.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;doppel-bot-update-12-february-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - 12 February 2023&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-update-12-february-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - 12 February 2023&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Service Changes:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Service Notifications are now opt-in by default.&lt;/li&gt;
@@ -150,12 +149,12 @@
 &lt;li&gt;Disconnect timeout can now be set per server with &lt;code&gt;d!timeout&lt;/code&gt; (accepts values in seconds)&lt;/li&gt;
 &lt;li&gt;Ported &lt;code&gt;d!settings&lt;/code&gt; from Classic DoppelBot.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;doppel-bot-update-february-7th-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - February 7th, 2023&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-update-february-7th-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - February 7th, 2023&lt;/h3&gt;
 &lt;p&gt;This update includes some changes, that will be applied as soon as the bot restarts.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;strong&gt;Queue has finally been added!&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
 You can now put multiple songs in DoppelBot for it to play. No more fighting for getting a song into DoppelBot!&lt;/p&gt;
 &lt;p&gt;This update also features Quality of Life changes and bug fixes.&lt;/p&gt;
-&lt;h4 id=&quot;doppel-bot-update-april-1-2022&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - April 1, 2022&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-update-april-1-2022&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - April 1, 2022&lt;/h3&gt;
 &lt;p&gt;This updates includes some important changes, and will be applied as soon as the bot restarts.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed some commands take the knowledge?&lt;/li&gt;
@@ -169,7 +168,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
 &lt;/ul&gt;
 &lt;p&gt;We would also like to inform users that it feels like I&#39;ve become Legacy. Today you will include Realtek and Ina Unravel responses are on, other bots&#39; mentions.&lt;/p&gt;
 &lt;p&gt;Thanks for supporting us!&lt;/p&gt;
-&lt;h4 id=&quot;doppel-bot-update-october-20-2021&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - October 20, 2021&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-update-october-20-2021&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - October 20, 2021&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed some cases of Engrish&lt;/li&gt;
 &lt;li&gt;Added aliases for some commands
@@ -182,7 +181,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
 &lt;/li&gt;
 &lt;li&gt;Changed radio transmission frequency to comply with federal and state spectrum management regulations.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;doppel-bot-update-may-14-2021&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - May 14, 2021&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-update-may-14-2021&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - May 14, 2021&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;New Feature: Word Filter
 &lt;ul&gt;
@@ -199,7 +198,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
 &lt;li&gt;Removed the Ina Unravel response.&lt;/li&gt;
 &lt;li&gt;Updated localization files.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;doppel-bot-update-may-2-2021&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - May 2, 2021&lt;/h4&gt;
+&lt;h3 id=&quot;doppel-bot-update-may-2-2021&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - May 2, 2021&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;New initiative: Server Settings.
 &lt;ul&gt;
@@ -221,7 +220,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Happy 5th Birthday, DoppelBot!
                 
             </title>
-            <updated>2025-04-01T19:03:32Z</updated>
+            <updated>2025-04-01T19:07:29Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
@@ -239,7 +238,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Home Page
                 
             </title>
-            <updated>2025-04-01T19:03:32Z</updated>
+            <updated>2025-04-01T19:07:29Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
                 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Welcome to the DoppelBot Blog!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
