@@ -3,17 +3,74 @@
     <title>DoppelBot</title>
     <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
     <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-04-01T19:03:27Z</updated>
+    <updated>2025-04-01T19:03:40Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-04-01T19:03:19Z</updated>
+            <updated>2025-04-01T19:03:32Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
+&lt;h3 id=&quot;doppel-bot-anniversary-update-part-1&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Anniversary Update, Part 1&lt;/h3&gt;
+&lt;h4 id=&quot;general&quot; tabindex=&quot;-1&quot;&gt;General&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;BREAKING CHANGE / NEW FEATURE:&lt;/strong&gt;&lt;/em&gt; Removed text-based commands. Most existing commands can now be executed with the newest Discord features including, slash commands, buttons, modals and menus.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;BREAKING CHANGE / NEW FEATURE:&lt;/strong&gt;&lt;/em&gt; Instance owners can now customize DoppelBot&#39;s name, avatar, games and other settings without the Developer Portal.
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/alexavil/DoppelBot/refs/heads/master/.env.example&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;To edit the settings, please see this example file.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;You can now add multiple responses for a tag.
+&lt;ul&gt;
+&lt;li&gt;Please use the following format:&lt;br /&gt;
+&lt;code&gt;response1&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;---&lt;/code&gt;&lt;br /&gt;
+&lt;code&gt;response2&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Responses will be chosen randomly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;All tags can now be managed and wiped separately from settings.&lt;/li&gt;
+&lt;li&gt;Settings and tags embeds now update automatically.&lt;/li&gt;
+&lt;li&gt;Removed Backup/Restore.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;music-player-changes&quot; tabindex=&quot;-1&quot;&gt;Music Player Changes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;NEW FEATURE:&lt;/strong&gt;&lt;/em&gt; The bot can now play local music files.
+&lt;ul&gt;
+&lt;li&gt;Local files must be uploaded to the bot&#39;s music cache.&lt;/li&gt;
+&lt;li&gt;The bot currently accepts &lt;code&gt;*.flac&lt;/code&gt;, &lt;code&gt;*.mp3&lt;/code&gt;, &lt;code&gt;*.ogg&lt;/code&gt;, &lt;code&gt;*.wav&lt;/code&gt;, and &lt;code&gt;*.m4a&lt;/code&gt; files. More file types will be added in the future updates.&lt;/li&gt;
+&lt;li&gt;Files can be uploaded via the new &lt;code&gt;/upload&lt;/code&gt; command or when you select a track to play.&lt;/li&gt;
+&lt;li&gt;Due to Discord&#39;s limitations, you can upload one file at a time. However, you can select multiple tracks to play from the cache.&lt;/li&gt;
+&lt;li&gt;Files can be accessed by all guilds and will stay in the cache indefinitely. There is currently no cache size limitation.&lt;/li&gt;
+&lt;li&gt;Instance owners can wipe the cache at any time. Wiping the cache will disconnect all active players.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/em&gt; Online functionality is currently unavailable and will be restored in Part 2 of this update.&lt;/li&gt;
+&lt;li&gt;Play, pause, stop, seek and skip can now be used with a single &lt;code&gt;/controls&lt;/code&gt; command.&lt;br /&gt;
+&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/controls-command.png&quot; alt=&quot;controls-command.png&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;You can no longer skip if there&#39;s only one track in the queue. Use the Stop button instead.
+&lt;ul&gt;
+&lt;li&gt;Skip is greyed out in the controls panel to indicate this.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/queue&lt;/code&gt; now includes the name of the current server.&lt;/li&gt;
+&lt;li&gt;Improved stability and performance.&lt;/li&gt;
+&lt;li&gt;Changed radio transmission frequency to comply with federal and state spectrum management regulations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;technical-changes&quot; tabindex=&quot;-1&quot;&gt;Technical Changes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Sentry now collects performance data, as well as bugs.
+&lt;ul&gt;
+&lt;li&gt;Sentry reporting can now be toggled on and off.&lt;/li&gt;
+&lt;li&gt;In Debug Mode, Sentry reporting is always on.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Improved Realtek Mode and DoppelBot Account support.&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h4 id=&quot;doppel-bot-update-april-16-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - April 16, 2023&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;All servers now start with the healthiest API-enabled instance by default.&lt;/li&gt;
@@ -161,10 +218,28 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
         </entry>
         <entry>
             <title>
+                Happy 5th Birthday, DoppelBot!
+                
+            </title>
+            <updated>2025-04-01T19:03:32Z</updated>
+            <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
+            <content type="html">
+                &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;5 years ago, we created DoppelBot - a silly bot that sends pictures of Doppelganger Arle. Over the past years, we tried to make it a useful, free and open-source entertainment bot. We shifted from simple images to music, and while DoppelBot certainly has its ups and downs, I imagine some people are glad it exists.&lt;/p&gt;
+&lt;p&gt;We&#39;re opening up this blog to share longer posts related to the development of DoppelBot and to support those who wish to self-host this bot (which we actively encourage!). While this bot is still called DoppelBot internally, you can now give it a bit of your own personality!&lt;/p&gt;
+&lt;p&gt;This year marked the heated fight between Google and YouTube downloaders and third-party clients (including Invidious, which was used for InvidJS). It halted the development for quite a while and caused a lot of changes. This update will be released in 2 parts - the first part is aimed to restore the core functionality, while the second part will feature the return of the online functionality. Read the full changelog for Part 1 of this update in the &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/update-history/&quot;&gt;Update History&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Happy Birthday DoppelBot!&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/" >
+        </entry>
+        <entry>
+            <title>
                 Home Page
                 
             </title>
-            <updated>2025-04-01T19:03:19Z</updated>
+            <updated>2025-04-01T19:03:32Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
                 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Welcome to the DoppelBot Blog!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -175,7 +250,9 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
 Use the Search Bar or the links below to navigate.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;View the &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/update-history/&quot;&gt;Update History&lt;/a&gt; or check out our recent posts!&lt;/p&gt;
-&lt;p class=&quot;block-language-dataview&quot;&gt;&lt;/p&gt;
+&lt;ul class=&quot;block-language-dataview&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/posts/happy-5th-birthday-doppel-bot/&quot;&gt;Happy 5th Birthday, DoppelBot!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
             </content>
             <link href="https://doppelbot.jsbox.xyz//" >
