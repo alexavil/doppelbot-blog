@@ -4,7 +4,7 @@
 
 These patch notes are preserved for historic purposes.
 
-### DoppelBot Anniversary Update, Part 1
+### DoppelBot Anniversary Update 2025, Part 1 - April 3, 2025
 
 #### General
 
