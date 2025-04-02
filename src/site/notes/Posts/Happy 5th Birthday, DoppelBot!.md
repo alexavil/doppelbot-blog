@@ -4,12 +4,14 @@
 
 ![kogasa-bday.png](/img/user/Attachments/kogasa-bday.png)
 
-5 years ago, we created DoppelBot - a silly bot that sends pictures of Doppelganger Arle. Over the past years, we tried to make it a useful, free and open-source entertainment bot. We shifted from simple images to music, and while DoppelBot certainly has its ups and downs, I imagine some people are glad it exists. 
+5 years ago, we created DoppelBot - a silly bot that sent pictures of Doppelganger Arle. Over the past years, we tried to make it a useful, free and open-source entertainment bot. We shifted from simple images to music, and while DoppelBot certainly has its ups and downs, I imagine some people are glad it exists.
 
-We're opening up this blog to share longer posts related to the development of DoppelBot and to support those who wish to self-host this bot (which we actively encourage!). While this bot is still called DoppelBot internally, you can now give it a bit of your own personality!
+The next update will feature a fresh look on DoppelBot, as well as restore the functionality that was missing for quite a while, thanks to the heated fight between Google and YouTube downloaders and third-party clients (including Invidious, which was used for InvidJS). This update will be released in 2 parts - the first part is aimed to restore the core functionality using local files, while the second part will feature the return of the online features.
 
-This year marked the heated fight between Google and YouTube downloaders and third-party clients (including Invidious, which was used for InvidJS). It halted the development for quite a while and caused a lot of changes. This update will be released in 2 parts - the first part is aimed to restore the core functionality, while the second part will feature the return of the online functionality. Read the full changelog for Part 1 of this update in the [[Update History\|Update History]]!
+Along with this update, we'll be opening up and sharing longer posts related to the development of DoppelBot and special notes to support those who wish to self-host this bot (which we actively encourage!). While this bot is still called DoppelBot internally, as part of this update you will be able to give it a bit of your own personality!
 
-Happy Birthday DoppelBot!
+The update will be released on April 3, 2025, but for now...
+
+***Happy Birthday DoppelBot!***
 
 [[Home Page\|Home]]

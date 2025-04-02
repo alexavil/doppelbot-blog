@@ -28,9 +28,9 @@ These patch notes are preserved for historic purposes.
 	- The bot currently accepts `*.flac`, `*.mp3`, `*.ogg`, `*.wav`, and `*.m4a` files. More file types will be added in the future updates.
 	- Files can be uploaded via the new `/upload` command or when you select a track to play.
 	- Due to Discord's limitations, you can upload one file at a time. However, you can select multiple tracks to play from the cache.
-	- Files can be accessed by all guilds and will stay in the cache indefinitely. There is currently no cache size limitation.
+	- *Sharing is caring:* Files will stay in the cache indefinitely and can be accessed by all guilds. There is currently no cache size limitation.
 	- Instance owners can wipe the cache at any time. Wiping the cache will disconnect all active players.
-- ***NOTE:*** Online functionality is currently unavailable and will be restored in Part 2 of this update.
+	- ***NOTE:*** Online functionality is currently unavailable and will be restored in Part 2 of this update.
 - Play, pause, stop, seek and skip can now be used with a single `/controls` command.
 	 ![controls-command.png](/img/user/Attachments/controls-command.png)
 - You can no longer skip if there's only one track in the queue. Use the Stop button instead.
