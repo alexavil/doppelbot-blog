@@ -3,14 +3,14 @@
     <title>DoppelBot</title>
     <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
     <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-04-01T19:07:42Z</updated>
+    <updated>2025-04-02T17:20:14Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-04-01T19:07:29Z</updated>
+            <updated>2025-04-02T17:20:07Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
@@ -44,11 +44,11 @@
 &lt;li&gt;The bot currently accepts &lt;code&gt;*.flac&lt;/code&gt;, &lt;code&gt;*.mp3&lt;/code&gt;, &lt;code&gt;*.ogg&lt;/code&gt;, &lt;code&gt;*.wav&lt;/code&gt;, and &lt;code&gt;*.m4a&lt;/code&gt; files. More file types will be added in the future updates.&lt;/li&gt;
 &lt;li&gt;Files can be uploaded via the new &lt;code&gt;/upload&lt;/code&gt; command or when you select a track to play.&lt;/li&gt;
 &lt;li&gt;Due to Discord&#39;s limitations, you can upload one file at a time. However, you can select multiple tracks to play from the cache.&lt;/li&gt;
-&lt;li&gt;Files can be accessed by all guilds and will stay in the cache indefinitely. There is currently no cache size limitation.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Sharing is caring:&lt;/em&gt; Files will stay in the cache indefinitely and can be accessed by all guilds. There is currently no cache size limitation.&lt;/li&gt;
 &lt;li&gt;Instance owners can wipe the cache at any time. Wiping the cache will disconnect all active players.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/em&gt; Online functionality is currently unavailable and will be restored in Part 2 of this update.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/em&gt; Online functionality is currently unavailable and will be restored in Part 2 of this update.&lt;/li&gt;
 &lt;li&gt;Play, pause, stop, seek and skip can now be used with a single &lt;code&gt;/controls&lt;/code&gt; command.&lt;br /&gt;
 &lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/controls-command.png&quot; alt=&quot;controls-command.png&quot; /&gt;&lt;/li&gt;
 &lt;li&gt;You can no longer skip if there&#39;s only one track in the queue. Use the Stop button instead.
@@ -220,14 +220,15 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Happy 5th Birthday, DoppelBot!
                 
             </title>
-            <updated>2025-04-01T19:07:29Z</updated>
+            <updated>2025-04-02T17:20:07Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;5 years ago, we created DoppelBot - a silly bot that sends pictures of Doppelganger Arle. Over the past years, we tried to make it a useful, free and open-source entertainment bot. We shifted from simple images to music, and while DoppelBot certainly has its ups and downs, I imagine some people are glad it exists.&lt;/p&gt;
-&lt;p&gt;We&#39;re opening up this blog to share longer posts related to the development of DoppelBot and to support those who wish to self-host this bot (which we actively encourage!). While this bot is still called DoppelBot internally, you can now give it a bit of your own personality!&lt;/p&gt;
-&lt;p&gt;This year marked the heated fight between Google and YouTube downloaders and third-party clients (including Invidious, which was used for InvidJS). It halted the development for quite a while and caused a lot of changes. This update will be released in 2 parts - the first part is aimed to restore the core functionality, while the second part will feature the return of the online functionality. Read the full changelog for Part 1 of this update in the &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/update-history/&quot;&gt;Update History&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;Happy Birthday DoppelBot!&lt;/p&gt;
+&lt;p&gt;5 years ago, we created DoppelBot - a silly bot that sent pictures of Doppelganger Arle. Over the past years, we tried to make it a useful, free and open-source entertainment bot. We shifted from simple images to music, and while DoppelBot certainly has its ups and downs, I imagine some people are glad it exists.&lt;/p&gt;
+&lt;p&gt;The next update will feature a fresh look on DoppelBot, as well as restore the functionality that was missing for quite a while, thanks to the heated fight between Google and YouTube downloaders and third-party clients (including Invidious, which was used for InvidJS). This update will be released in 2 parts - the first part is aimed to restore the core functionality using local files, while the second part will feature the return of the online features.&lt;/p&gt;
+&lt;p&gt;Along with this update, we&#39;ll be opening up and sharing longer posts related to the development of DoppelBot and special notes to support those who wish to self-host this bot (which we actively encourage!). While this bot is still called DoppelBot internally, as part of this update you will be able to give it a bit of your own personality!&lt;/p&gt;
+&lt;p&gt;The update will be released on April 3, 2025, but for now...&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Happy Birthday DoppelBot!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
 
             </content>
@@ -238,7 +239,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Home Page
                 
             </title>
-            <updated>2025-04-01T19:07:29Z</updated>
+            <updated>2025-04-02T17:20:07Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
                 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Welcome to the DoppelBot Blog!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
