@@ -3,22 +3,22 @@
     <title>DoppelBot</title>
     <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
     <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-04-09T13:54:53Z</updated>
+    <updated>2025-04-09T17:15:44Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-04-09T13:54:42Z</updated>
+            <updated>2025-04-09T17:15:37Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
-&lt;h3 id=&quot;music-hotfix-april-7-2025&quot; tabindex=&quot;-1&quot;&gt;Music Hotfix - April 7, 2025&lt;/h3&gt;
+&lt;h3 id=&quot;doppel-bot-hotfix-april-7-2025&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Hotfix - April 7, 2025&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Fixed the unintended 25 track limit.
+&lt;li&gt;Fixed the 25 track &amp;amp; tag limit.
 &lt;ul&gt;
-&lt;li&gt;The menu will now display &amp;quot;Previous&amp;quot; and &amp;quot;Next&amp;quot; buttons if there are more than 25 tracks in the cache.&lt;/li&gt;
+&lt;li&gt;Interactions which depend on this limit may now display the &amp;quot;Previous&amp;quot; and &amp;quot;Next&amp;quot; buttons.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Every track is now saved into a cache database.&lt;/li&gt;
@@ -31,6 +31,13 @@
 &lt;/li&gt;
 &lt;li&gt;Cancelling a menu will no longer disconnect the bot if a track is currently playing.&lt;/li&gt;
 &lt;li&gt;Added an emergency &lt;code&gt;/disconnect&lt;/code&gt; command (same rules as for stop).&lt;/li&gt;
+&lt;li&gt;Added character limits to tags.
+&lt;ul&gt;
+&lt;li&gt;A key phrase can be 256 characters long.&lt;/li&gt;
+&lt;li&gt;A tag response can be 1024 characters long.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Added &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/privacy-policy/&quot;&gt;Privacy Policy&lt;/a&gt; and &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/update-history/&quot;&gt;Update History&lt;/a&gt; links to the About command.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;doppel-bot-anniversary-update-2025-part-1-april-3-2025&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Anniversary Update 2025, Part 1 - April 3, 2025&lt;/h3&gt;
 &lt;h4 id=&quot;general&quot; tabindex=&quot;-1&quot;&gt;General&lt;/h4&gt;
@@ -238,7 +245,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Privacy Policy
                 
             </title>
-            <updated>2025-04-09T13:54:42Z</updated>
+            <updated>2025-04-09T17:15:37Z</updated>
             <id>https://doppelbot.jsbox.xyz//privacy-policy/</id>
             <content type="html">
                 &lt;p&gt;This Privacy Policy governs the collection, use, and sharing of personal information by DoppelBot and its instances. By deploying and using the bot, you agree to the terms of this Privacy Policy.&lt;/p&gt;
@@ -273,7 +280,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Happy 5th Birthday, DoppelBot!
                 
             </title>
-            <updated>2025-04-09T13:54:42Z</updated>
+            <updated>2025-04-09T17:15:37Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
@@ -292,7 +299,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Home Page
                 
             </title>
-            <updated>2025-04-09T13:54:42Z</updated>
+            <updated>2025-04-09T17:15:37Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
                 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Welcome to DoppelBot!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -323,7 +330,7 @@ Use the Search Bar or the links below to navigate.&lt;/p&gt;
                 Getting Started
                 
             </title>
-            <updated>2025-04-09T13:54:42Z</updated>
+            <updated>2025-04-09T17:15:37Z</updated>
             <id>https://doppelbot.jsbox.xyz//guides/getting-started/</id>
             <content type="html">
                 &lt;p&gt;DoppelBot is a free and open-source Discord bot for entertainment, with capabilities of playing music files and responding to the users&#39; custom responses (known as &amp;quot;tags&amp;quot;).&lt;/p&gt;
