@@ -21,3 +21,5 @@ We encourage the bot to be self-hosted. Please follow this guide to install the 
 6. Create the `.env` file and fill it out according to [the example](https://raw.githubusercontent.com/alexavil/DoppelBot/refs/heads/master/.env.example).
 7. Deploy the commands by running `node utils/deploy.js`.
 8. Launch the `index.js` file: `node index.js`.
+
+[[Home Page\|Home]]
