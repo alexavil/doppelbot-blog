@@ -4,10 +4,10 @@
 
 These patch notes are preserved for historic purposes.
 
-### Music Hotfix - April 7, 2025
+### DoppelBot Hotfix - April 7, 2025
 
-- Fixed the unintended 25 track limit.
-	- The menu will now display "Previous" and "Next" buttons if there are more than 25 tracks in the cache.
+- Fixed the 25 track & tag limit.
+	- Interactions which depend on this limit may now display the "Previous" and "Next" buttons.
 - Every track is now saved into a cache database.
 - When using `/upload` to upload a track, you can now give it a user-friendly display name.
 - Improved duplicate track detection.
@@ -15,6 +15,10 @@ These patch notes are preserved for historic purposes.
 	- DoppelBot will now correctly keep track of deleted files.
 - Cancelling a menu will no longer disconnect the bot if a track is currently playing.
 - Added an emergency `/disconnect` command (same rules as for stop).
+- Added character limits to tags.
+	- A key phrase can be 256 characters long.
+	- A tag response can be 1024 characters long.
+- Added [[Privacy Policy\|Privacy Policy]] and [[Update History\|Update History]] links to the About command.
 
 ### DoppelBot Anniversary Update 2025, Part 1 - April 3, 2025
 
