@@ -3,14 +3,14 @@
     <title>DoppelBot</title>
     <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
     <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-04-09T13:50:14Z</updated>
+    <updated>2025-04-09T13:52:11Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-04-09T13:50:02Z</updated>
+            <updated>2025-04-09T13:51:59Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
@@ -238,7 +238,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Privacy Policy
                 
             </title>
-            <updated>2025-04-09T13:50:02Z</updated>
+            <updated>2025-04-09T13:51:59Z</updated>
             <id>https://doppelbot.jsbox.xyz//privacy-policy/</id>
             <content type="html">
                 &lt;p&gt;This Privacy Policy governs the collection, use, and sharing of personal information by DoppelBot and its instances. By deploying and using the bot, you agree to the terms of this Privacy Policy.&lt;/p&gt;
@@ -273,7 +273,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Happy 5th Birthday, DoppelBot!
                 
             </title>
-            <updated>2025-04-09T13:50:02Z</updated>
+            <updated>2025-04-09T13:51:59Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
@@ -292,7 +292,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Home Page
                 
             </title>
-            <updated>2025-04-09T13:50:02Z</updated>
+            <updated>2025-04-09T13:51:59Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
                 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Welcome to DoppelBot!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -307,11 +307,10 @@ Use the Search Bar or the links below to navigate.&lt;/p&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/privacy-policy/&quot;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Guides:&lt;/p&gt;
-&lt;ul&gt;
+&lt;ul class=&quot;block-language-dataview&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/guides/getting-started/&quot;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;{ .block-language-dataview}&lt;br /&gt;
-Recent posts:&lt;/p&gt;
+&lt;p&gt;Recent posts:&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/posts/happy-5th-birthday-doppel-bot/&quot;&gt;Happy 5th Birthday, DoppelBot!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -324,7 +323,7 @@ Recent posts:&lt;/p&gt;
                 Getting Started
                 
             </title>
-            <updated>2025-04-09T13:50:02Z</updated>
+            <updated>2025-04-09T13:51:59Z</updated>
             <id>https://doppelbot.jsbox.xyz//guides/getting-started/</id>
             <content type="html">
                 &lt;p&gt;DoppelBot is a free and open-source Discord bot for entertainment, with capabilities of playing music files and responding to the users&#39; custom responses (known as &amp;quot;tags&amp;quot;).&lt;/p&gt;
