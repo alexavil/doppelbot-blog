@@ -17,6 +17,7 @@ Guides:
 - [[Guides/Getting Started\|Getting Started]]
 
 { .block-language-dataview}
+
 Recent posts:
 - [[Posts/Happy 5th Birthday, DoppelBot!\|Happy 5th Birthday, DoppelBot!]]
 
