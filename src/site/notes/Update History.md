@@ -4,6 +4,18 @@
 
 These patch notes are preserved for historic purposes.
 
+### Music Hotfix - April 7, 2025
+
+- Fixed the unintended 25 track limit.
+	- The menu will now display "Previous" and "Next" buttons if there are more than 25 tracks in the cache.
+- Every track is now saved into a cache database.
+- When using `/upload` to upload a track, you can now give it a user-friendly display name.
+- Improved duplicate track detection.
+	- DoppelBot will now verify the MD5 Hash against the database.
+	- DoppelBot will now correctly keep track of deleted files.
+- Cancelling a menu will no longer disconnect the bot if a track is currently playing.
+- Added an emergency `/disconnect` command (same rules as for stop).
+
 ### DoppelBot Anniversary Update 2025, Part 1 - April 3, 2025
 
 #### General
