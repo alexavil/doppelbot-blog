@@ -3,17 +3,35 @@
     <title>DoppelBot</title>
     <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
     <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-04-02T17:21:05Z</updated>
+    <updated>2025-04-09T13:50:14Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-04-02T17:20:56Z</updated>
+            <updated>2025-04-09T13:50:02Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
+&lt;h3 id=&quot;music-hotfix-april-7-2025&quot; tabindex=&quot;-1&quot;&gt;Music Hotfix - April 7, 2025&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed the unintended 25 track limit.
+&lt;ul&gt;
+&lt;li&gt;The menu will now display &amp;quot;Previous&amp;quot; and &amp;quot;Next&amp;quot; buttons if there are more than 25 tracks in the cache.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Every track is now saved into a cache database.&lt;/li&gt;
+&lt;li&gt;When using &lt;code&gt;/upload&lt;/code&gt; to upload a track, you can now give it a user-friendly display name.&lt;/li&gt;
+&lt;li&gt;Improved duplicate track detection.
+&lt;ul&gt;
+&lt;li&gt;DoppelBot will now verify the MD5 Hash against the database.&lt;/li&gt;
+&lt;li&gt;DoppelBot will now correctly keep track of deleted files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cancelling a menu will no longer disconnect the bot if a track is currently playing.&lt;/li&gt;
+&lt;li&gt;Added an emergency &lt;code&gt;/disconnect&lt;/code&gt; command (same rules as for stop).&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&quot;doppel-bot-anniversary-update-2025-part-1-april-3-2025&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Anniversary Update 2025, Part 1 - April 3, 2025&lt;/h3&gt;
 &lt;h4 id=&quot;general&quot; tabindex=&quot;-1&quot;&gt;General&lt;/h4&gt;
 &lt;ul&gt;
@@ -217,10 +235,45 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
         </entry>
         <entry>
             <title>
+                Privacy Policy
+                
+            </title>
+            <updated>2025-04-09T13:50:02Z</updated>
+            <id>https://doppelbot.jsbox.xyz//privacy-policy/</id>
+            <content type="html">
+                &lt;p&gt;This Privacy Policy governs the collection, use, and sharing of personal information by DoppelBot and its instances. By deploying and using the bot, you agree to the terms of this Privacy Policy.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Information We Collect&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We use Sentry (&lt;a href=&quot;https://sentry.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://sentry.io/&lt;/a&gt;) to collect logs and reports necessary to provide support, bug fixes and stability improvements for the bot.&lt;br /&gt;
+Telemetry is optional and disabled by default unless you enable the Telemetry or Debug Mode flags.&lt;/p&gt;
+&lt;p&gt;We collect the following information via Sentry:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Geolocation: Country, City, Timezone and System Locale of a machine running DoppelBot or its instances&lt;/li&gt;
+&lt;li&gt;Your Machine Specifications: OS, CPU, RAM, Boot Time&lt;/li&gt;
+&lt;li&gt;Stack Traces and Logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;How We Use Your Information&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We use your information to operate and improve DoppelBot and its instances. We may also use your information to develop new features or services, provide bug fixes and stability improvements or to conduct research and analytics.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Sharing Your Information&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We do not sell or share your personal information with third parties.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Data Retention&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We retain your information for as long as necessary depending on the information type.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Data Security&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We take reasonable measures to protect your information from unauthorized access, alteration, or destruction. However, no security measure is perfect, and we cannot guarantee the security of your information.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Changes to this Policy&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We may update this Privacy Policy, and we will post the updated policy on our website. Your continued use of DoppelBot and its instances after we make changes to this policy indicates your acceptance of the revised policy.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Effective Date&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This Privacy Policy is effective as of April 9, 2025.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://doppelbot.jsbox.xyz//privacy-policy/" >
+        </entry>
+        <entry>
+            <title>
                 Happy 5th Birthday, DoppelBot!
                 
             </title>
-            <updated>2025-04-02T17:20:56Z</updated>
+            <updated>2025-04-09T13:50:02Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
@@ -239,22 +292,62 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Home Page
                 
             </title>
-            <updated>2025-04-02T17:20:56Z</updated>
+            <updated>2025-04-09T13:50:02Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
-                &lt;p&gt;&lt;em&gt;&lt;strong&gt;Welcome to the DoppelBot Blog!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;We made the executive decision to use the most bleeding-edge communication technology available.&lt;/p&gt;
-&lt;p&gt;Welcome to the future. Welcome… to a &amp;quot;blog&amp;quot;. Feel free to explore our collection of DoppelBot updates, as well as development logs.&lt;/p&gt;
+                &lt;p&gt;&lt;em&gt;&lt;strong&gt;Welcome to DoppelBot!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This website hosts our collection of DoppelBot updates, as well as development logs.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]&lt;br /&gt;
 Use the Search Bar or the links below to navigate.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;View the &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/update-history/&quot;&gt;Update History&lt;/a&gt; or check out our recent posts!&lt;/p&gt;
+&lt;p&gt;Useful links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/update-history/&quot;&gt;Update History&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/privacy-policy/&quot;&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Guides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/guides/getting-started/&quot;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;{ .block-language-dataview}&lt;br /&gt;
+Recent posts:&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/posts/happy-5th-birthday-doppel-bot/&quot;&gt;Happy 5th Birthday, DoppelBot!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
             </content>
             <link href="https://doppelbot.jsbox.xyz//" >
+        </entry>
+        <entry>
+            <title>
+                Getting Started
+                
+            </title>
+            <updated>2025-04-09T13:50:02Z</updated>
+            <id>https://doppelbot.jsbox.xyz//guides/getting-started/</id>
+            <content type="html">
+                &lt;p&gt;DoppelBot is a free and open-source Discord bot for entertainment, with capabilities of playing music files and responding to the users&#39; custom responses (known as &amp;quot;tags&amp;quot;).&lt;/p&gt;
+&lt;p&gt;We encourage the bot to be self-hosted. Please follow this guide to install the bot.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!warning]&lt;br /&gt;
+Please read the &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/privacy-policy/&quot;&gt;Privacy Policy&lt;/a&gt; before hosting the bot.&lt;/p&gt;
+&lt;p&gt;Usage of some functions and commands may be restricted in some countries, such as Russia.&lt;br /&gt;
+Please host the bot in a neutral location.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;basic-installation&quot; tabindex=&quot;-1&quot;&gt;Basic Installation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://discord.com/developers/applications&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Create a new Discord application.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install the latest version of Node.js and npm.&lt;/li&gt;
+&lt;li&gt;Clone our repository: &lt;code&gt;git clone https://github.com/alexavil/DoppelBot&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd&lt;/code&gt; to the directory, for example &lt;code&gt;cd DoppelBot&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Install all dependencies via &lt;code&gt;npm install&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Create the &lt;code&gt;.env&lt;/code&gt; file and fill it out according to &lt;a href=&quot;https://raw.githubusercontent.com/alexavil/DoppelBot/refs/heads/master/.env.example&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;the example&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Deploy the commands by running &lt;code&gt;node utils/deploy.js&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Launch the &lt;code&gt;index.js&lt;/code&gt; file: &lt;code&gt;node index.js&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+            </content>
+            <link href="https://doppelbot.jsbox.xyz//guides/getting-started/" >
         </entry>
 </feed>
