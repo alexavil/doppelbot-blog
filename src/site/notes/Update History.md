@@ -4,7 +4,7 @@
 
 These patch notes are preserved for historic purposes.
 
-### DoppelBot Hotfix - April 7, 2025
+### DoppelBot Hotfix - April 16, 2025
 
 - Fixed the 25 track & tag limit.
 	- Interactions which depend on this limit may now display the "Previous" and "Next" buttons.
