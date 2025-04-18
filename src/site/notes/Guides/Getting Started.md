@@ -2,15 +2,17 @@
 {"dg-publish":true,"permalink":"/guides/getting-started/","created":"2025-04-09T17:28:08.397+04:00"}
 ---
 
+
 DoppelBot is a free and open-source Discord bot for entertainment, with capabilities of playing music files and responding to the users' custom responses (known as "tags").
 
 We encourage the bot to be self-hosted. Please follow this guide to install the bot.
 
 > [!warning]
->Please read the [[Privacy Policy\|Privacy Policy]] before hosting the bot.
-> 
-> Usage of some functions and commands may be restricted in some countries, such as Russia. 
+> Please read the [[Privacy Policy\|Privacy Policy]] before hosting the bot.
+>
+> Usage of some functions and commands may be restricted in some countries, such as Russia.
 > Please host the bot in a neutral location.
+
 ### Basic Installation
 
 1. [Create a new Discord application.](https://discord.com/developers/applications)

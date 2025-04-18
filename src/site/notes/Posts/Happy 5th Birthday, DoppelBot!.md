@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/posts/happy-5th-birthday-doppel-bot/","created":"2025-03-29T22:47:18.850+04:00"}
 ---
 
+
 ![kogasa-bday.png](/img/user/Attachments/kogasa-bday.png)
 
 5 years ago, we created DoppelBot - a silly bot that sent pictures of Doppelganger Arle. Over the past years, we tried to make it a useful, free and open-source entertainment bot. We shifted from simple images to music, and while DoppelBot certainly has its ups and downs, I imagine some people are glad it exists.
@@ -12,6 +13,6 @@ Along with this update, we'll be opening up and sharing longer posts related to 
 
 The update will be released on April 3, 2025, but for now...
 
-***Happy Birthday DoppelBot!***
+**_Happy Birthday DoppelBot!_**
 
 [[Home Page\|Home]]
