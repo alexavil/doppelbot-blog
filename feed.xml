@@ -3,14 +3,14 @@
     <title>DoppelBot</title>
     <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
     <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-04-16T16:49:12Z</updated>
+    <updated>2025-04-18T19:57:58Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-04-16T16:48:57Z</updated>
+            <updated>2025-04-18T19:57:50Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
@@ -42,8 +42,8 @@
 &lt;h3 id=&quot;doppel-bot-anniversary-update-2025-part-1-april-3-2025&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Anniversary Update 2025, Part 1 - April 3, 2025&lt;/h3&gt;
 &lt;h4 id=&quot;general&quot; tabindex=&quot;-1&quot;&gt;General&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;&lt;strong&gt;BREAKING CHANGE / NEW FEATURE:&lt;/strong&gt;&lt;/em&gt; Removed text-based commands. Most existing commands can now be executed with the newest Discord features including, slash commands, buttons, modals and menus.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;strong&gt;BREAKING CHANGE / NEW FEATURE:&lt;/strong&gt;&lt;/em&gt; Instance owners can now customize DoppelBot&#39;s name, avatar, games and other settings without the Developer Portal.
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;BREAKING CHANGE / NEW FEATURE:&lt;/em&gt;&lt;/strong&gt; Removed text-based commands. Most existing commands can now be executed with the newest Discord features including, slash commands, buttons, modals and menus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;BREAKING CHANGE / NEW FEATURE:&lt;/em&gt;&lt;/strong&gt; Instance owners can now customize DoppelBot&#39;s name, avatar, games and other settings without the Developer Portal.
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://raw.githubusercontent.com/alexavil/DoppelBot/refs/heads/master/.env.example&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;To edit the settings, please see this example file.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -63,7 +63,7 @@
 &lt;/ul&gt;
 &lt;h4 id=&quot;music-player-changes&quot; tabindex=&quot;-1&quot;&gt;Music Player Changes&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;&lt;strong&gt;NEW FEATURE:&lt;/strong&gt;&lt;/em&gt; The bot can now play local music files.
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;NEW FEATURE:&lt;/em&gt;&lt;/strong&gt; The bot can now play local music files.
 &lt;ul&gt;
 &lt;li&gt;Local files must be uploaded to the bot&#39;s music cache.&lt;/li&gt;
 &lt;li&gt;The bot currently accepts &lt;code&gt;*.flac&lt;/code&gt;, &lt;code&gt;*.mp3&lt;/code&gt;, &lt;code&gt;*.ogg&lt;/code&gt;, &lt;code&gt;*.wav&lt;/code&gt;, and &lt;code&gt;*.m4a&lt;/code&gt; files. More file types will be added in the future updates.&lt;/li&gt;
@@ -71,7 +71,7 @@
 &lt;li&gt;Due to Discord&#39;s limitations, you can upload one file at a time. However, you can select multiple tracks to play from the cache.&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Sharing is caring:&lt;/em&gt; Files will stay in the cache indefinitely and can be accessed by all guilds. There is currently no cache size limitation.&lt;/li&gt;
 &lt;li&gt;Instance owners can wipe the cache at any time. Wiping the cache will disconnect all active players.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;strong&gt;NOTE:&lt;/strong&gt;&lt;/em&gt; Online functionality is currently unavailable and will be restored in Part 2 of this update.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;NOTE:&lt;/em&gt;&lt;/strong&gt; Online functionality is currently unavailable and will be restored in Part 2 of this update.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Play, pause, stop, seek and skip can now be used with a single &lt;code&gt;/controls&lt;/code&gt; command.&lt;br /&gt;
@@ -176,7 +176,7 @@
 &lt;/ul&gt;
 &lt;h3 id=&quot;doppel-bot-update-february-7th-2023&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - February 7th, 2023&lt;/h3&gt;
 &lt;p&gt;This update includes some changes, that will be applied as soon as the bot restarts.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;strong&gt;Queue has finally been added!&lt;/strong&gt;&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;&lt;em&gt;Queue has finally been added!&lt;/em&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;br /&gt;
 You can now put multiple songs in DoppelBot for it to play. No more fighting for getting a song into DoppelBot!&lt;/p&gt;
 &lt;p&gt;This update also features Quality of Life changes and bug fixes.&lt;/p&gt;
 &lt;h3 id=&quot;doppel-bot-update-april-1-2022&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Update - April 1, 2022&lt;/h3&gt;
@@ -245,11 +245,11 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Privacy Policy
                 
             </title>
-            <updated>2025-04-16T16:48:57Z</updated>
+            <updated>2025-04-18T19:57:50Z</updated>
             <id>https://doppelbot.jsbox.xyz//privacy-policy/</id>
             <content type="html">
                 &lt;p&gt;This Privacy Policy governs the collection, use, and sharing of personal information by DoppelBot and its instances. By deploying and using the bot, you agree to the terms of this Privacy Policy.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Information We Collect&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Information We Collect&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We use Sentry (&lt;a href=&quot;https://sentry.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://sentry.io/&lt;/a&gt;) to collect logs and reports necessary to provide support, bug fixes and stability improvements for the bot.&lt;br /&gt;
 Telemetry is optional and disabled by default unless you enable the Telemetry or Debug Mode flags.&lt;/p&gt;
 &lt;p&gt;We collect the following information via Sentry:&lt;/p&gt;
@@ -258,17 +258,17 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
 &lt;li&gt;Your Machine Specifications: OS, CPU, RAM, Boot Time&lt;/li&gt;
 &lt;li&gt;Stack Traces and Logs&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;How We Use Your Information&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;How We Use Your Information&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We use your information to operate and improve DoppelBot and its instances. We may also use your information to develop new features or services, provide bug fixes and stability improvements or to conduct research and analytics.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Sharing Your Information&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sharing Your Information&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We do not sell or share your personal information with third parties.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Data Retention&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Data Retention&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We retain your information for as long as necessary depending on the information type.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Data Security&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Data Security&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We take reasonable measures to protect your information from unauthorized access, alteration, or destruction. However, no security measure is perfect, and we cannot guarantee the security of your information.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Changes to this Policy&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Changes to this Policy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We may update this Privacy Policy, and we will post the updated policy on our website. Your continued use of DoppelBot and its instances after we make changes to this policy indicates your acceptance of the revised policy.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Effective Date&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Effective Date&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This Privacy Policy is effective as of April 9, 2025.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
 
@@ -280,7 +280,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Happy 5th Birthday, DoppelBot!
                 
             </title>
-            <updated>2025-04-16T16:48:57Z</updated>
+            <updated>2025-04-18T19:57:50Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
@@ -288,7 +288,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
 &lt;p&gt;The next update will feature a fresh look on DoppelBot, as well as restore the functionality that was missing for quite a while, thanks to the heated fight between Google and YouTube downloaders and third-party clients (including Invidious, which was used for InvidJS). This update will be released in 2 parts - the first part is aimed to restore the core functionality using local files, while the second part will feature the return of the online features.&lt;/p&gt;
 &lt;p&gt;Along with this update, we&#39;ll be opening up and sharing longer posts related to the development of DoppelBot and special notes to support those who wish to self-host this bot (which we actively encourage!). While this bot is still called DoppelBot internally, as part of this update you will be able to give it a bit of your own personality!&lt;/p&gt;
 &lt;p&gt;The update will be released on April 3, 2025, but for now...&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Happy Birthday DoppelBot!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Happy Birthday DoppelBot!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
 
             </content>
@@ -299,10 +299,10 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Home Page
                 
             </title>
-            <updated>2025-04-16T16:48:57Z</updated>
+            <updated>2025-04-18T19:57:50Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
-                &lt;p&gt;&lt;em&gt;&lt;strong&gt;Welcome to DoppelBot!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;strong&gt;&lt;em&gt;Welcome to DoppelBot!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;This website hosts our collection of DoppelBot updates, as well as development logs.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;[!info]&lt;br /&gt;
@@ -330,7 +330,7 @@ Use the Search Bar or the links below to navigate.&lt;/p&gt;
                 Getting Started
                 
             </title>
-            <updated>2025-04-16T16:48:57Z</updated>
+            <updated>2025-04-18T19:57:50Z</updated>
             <id>https://doppelbot.jsbox.xyz//guides/getting-started/</id>
             <content type="html">
                 &lt;p&gt;DoppelBot is a free and open-source Discord bot for entertainment, with capabilities of playing music files and responding to the users&#39; custom responses (known as &amp;quot;tags&amp;quot;).&lt;/p&gt;
