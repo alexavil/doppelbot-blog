@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/guides/getting-started/","created":"2025-04-09T17:28:08.397+04:00"}
+{"dg-publish":true,"permalink":"/guides/getting-started/","created":"2025-04-09T17:28:08.000+04:00"}
 ---
 
 
