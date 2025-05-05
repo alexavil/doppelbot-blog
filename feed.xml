@@ -3,14 +3,14 @@
     <title>DoppelBot</title>
     <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
     <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-04-18T19:57:58Z</updated>
+    <updated>2025-05-05T06:57:05Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-04-18T19:57:50Z</updated>
+            <updated>2025-05-05T06:56:56Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
@@ -245,10 +245,11 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Privacy Policy
                 
             </title>
-            <updated>2025-04-18T19:57:50Z</updated>
+            <updated>2025-05-05T06:56:56Z</updated>
             <id>https://doppelbot.jsbox.xyz//privacy-policy/</id>
             <content type="html">
-                &lt;p&gt;This Privacy Policy governs the collection, use, and sharing of personal information by DoppelBot and its instances. By deploying and using the bot, you agree to the terms of this Privacy Policy.&lt;/p&gt;
+                &lt;p&gt;&lt;em&gt;&lt;strong&gt;Last Update: May 5, 2025&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This Privacy Policy governs the collection, use, and sharing of personal information by DoppelBot and its instances. By deploying and using the bot, you agree to the terms of this Privacy Policy.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Information We Collect&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We use Sentry (&lt;a href=&quot;https://sentry.io/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://sentry.io/&lt;/a&gt;) to collect logs and reports necessary to provide support, bug fixes and stability improvements for the bot.&lt;br /&gt;
 Telemetry is optional and disabled by default unless you enable the Telemetry or Debug Mode flags.&lt;/p&gt;
@@ -259,7 +260,9 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
 &lt;li&gt;Stack Traces and Logs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;How We Use Your Information&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We use your information to operate and improve DoppelBot and its instances. We may also use your information to develop new features or services, provide bug fixes and stability improvements or to conduct research and analytics.&lt;/p&gt;
+&lt;p&gt;We use your information to operate and improve DoppelBot and its instances. We may also use your information to develop new features or services, provide bug fixes and stability improvements.&lt;/p&gt;
+&lt;p&gt;We do not use your information to train AI as we do not have any AI features.&lt;/p&gt;
+&lt;p&gt;We do not have access and not share your or your bot&#39;s credentials. All credentials are stored locally on your machine and are only used to run DoppelBot and its instances.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Sharing Your Information&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We do not sell or share your personal information with third parties.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Data Retention&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -267,9 +270,10 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Data Security&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We take reasonable measures to protect your information from unauthorized access, alteration, or destruction. However, no security measure is perfect, and we cannot guarantee the security of your information.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Changes to this Policy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We may update this Privacy Policy, and we will post the updated policy on our website. Your continued use of DoppelBot and its instances after we make changes to this policy indicates your acceptance of the revised policy.&lt;/p&gt;
+&lt;p&gt;We may update this Privacy Policy, and we will post the updated policy on our website. Your use of updated versions of DoppelBot and its instances after we make changes to this policy indicates your acceptance of the revised policy.&lt;/p&gt;
+&lt;p&gt;You will be sent a notification if any changes require your consent. You may continue to follow the older version of this Policy by using the older version of the bot.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Effective Date&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This Privacy Policy is effective as of April 9, 2025.&lt;/p&gt;
+&lt;p&gt;This Privacy Policy is effective as of May 5, 2025.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
 
             </content>
@@ -280,7 +284,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Happy 5th Birthday, DoppelBot!
                 
             </title>
-            <updated>2025-04-18T19:57:50Z</updated>
+            <updated>2025-05-05T06:56:56Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
@@ -299,7 +303,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Home Page
                 
             </title>
-            <updated>2025-04-18T19:57:50Z</updated>
+            <updated>2025-05-05T06:56:56Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
                 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Welcome to DoppelBot!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -330,7 +334,7 @@ Use the Search Bar or the links below to navigate.&lt;/p&gt;
                 Getting Started
                 
             </title>
-            <updated>2025-04-18T19:57:50Z</updated>
+            <updated>2025-05-05T06:56:56Z</updated>
             <id>https://doppelbot.jsbox.xyz//guides/getting-started/</id>
             <content type="html">
                 &lt;p&gt;DoppelBot is a free and open-source Discord bot for entertainment, with capabilities of playing music files and responding to the users&#39; custom responses (known as &amp;quot;tags&amp;quot;).&lt;/p&gt;
