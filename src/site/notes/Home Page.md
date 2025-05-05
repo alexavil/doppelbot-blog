@@ -23,6 +23,7 @@ Guides:
 
 Recent posts:
 
+- [[Posts/Important Announcement Regarding Privacy\|Important Announcement Regarding Privacy]]
 - [[Posts/Happy 5th Birthday, DoppelBot!\|Happy 5th Birthday, DoppelBot!]]
 
 { .block-language-dataview}
