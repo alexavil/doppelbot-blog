@@ -3,17 +3,23 @@
     <title>DoppelBot</title>
     <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
     <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-05-05T07:09:06Z</updated>
+    <updated>2025-05-26T16:44:49Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-05-05T07:08:59Z</updated>
+            <updated>2025-05-26T16:44:41Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
+&lt;h3 id=&quot;doppel-bot-hotfix-may-26-2025&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Hotfix - May 26, 2025&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed tag-related commands not displaying messages correctly.&lt;/li&gt;
+&lt;li&gt;Data, cache and logs folders should now be created correctly.&lt;/li&gt;
+&lt;li&gt;Minor Debug Mode maintenance.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&quot;doppel-bot-hotfix-april-16-2025&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Hotfix - April 16, 2025&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed the 25 track &amp;amp; tag limit.
@@ -245,7 +251,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Privacy Policy
                 
             </title>
-            <updated>2025-05-05T07:08:59Z</updated>
+            <updated>2025-05-26T16:44:41Z</updated>
             <id>https://doppelbot.jsbox.xyz//privacy-policy/</id>
             <content type="html">
                 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Last Update: May 5, 2025&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -284,7 +290,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Important Announcement Regarding Privacy
                 
             </title>
-            <updated>2025-05-05T07:08:59Z</updated>
+            <updated>2025-05-26T16:44:41Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/important-announcement-regarding-privacy/</id>
             <content type="html">
                 &lt;p&gt;In the light of recent developments regarding &lt;em&gt;a popular AI bot service&lt;/em&gt;, we would like to make a few statements regarding your privacy.&lt;/p&gt;
@@ -307,7 +313,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Happy 5th Birthday, DoppelBot!
                 
             </title>
-            <updated>2025-05-05T07:08:59Z</updated>
+            <updated>2025-05-26T16:44:41Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
@@ -326,7 +332,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Home Page
                 
             </title>
-            <updated>2025-05-05T07:08:59Z</updated>
+            <updated>2025-05-26T16:44:41Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
                 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Welcome to DoppelBot!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -358,7 +364,7 @@ Use the Search Bar or the links below to navigate.&lt;/p&gt;
                 Getting Started
                 
             </title>
-            <updated>2025-05-05T07:08:59Z</updated>
+            <updated>2025-05-26T16:44:41Z</updated>
             <id>https://doppelbot.jsbox.xyz//guides/getting-started/</id>
             <content type="html">
                 &lt;p&gt;DoppelBot is a free and open-source Discord bot for entertainment, with capabilities of playing music files and responding to the users&#39; custom responses (known as &amp;quot;tags&amp;quot;).&lt;/p&gt;
