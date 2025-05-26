@@ -21,4 +21,6 @@ DoppelBot uses some environment variables which must be stored in the `.env` fil
 | `ACTIVITIES` | A list of possible bot status messages. The list must be comma-separated.<br>***Optional, status will be empty if not set.***                                                                            | `ACTIVITIES=Portal 2, Team Fortress 2` |
 | `TELEMETRY`  | Activates Sentry. Accepts only `true` and `false` values.<br>***Optional, defaults to `false`.***                                                                                                        | `TELEMETRY=true`                       |
 | `DEBUG`      | Activates Debug Mode. Accepts only `true` and `false` values.<br>***Optional, defaults to `false`.***                                                                                                    | `DEBUG=true`                           |
+
+
 [[Home Page\|Home]]
