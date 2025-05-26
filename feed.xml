@@ -3,14 +3,14 @@
     <title>DoppelBot</title>
     <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
     <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-05-26T16:44:49Z</updated>
+    <updated>2025-05-26T18:00:52Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-05-26T16:44:41Z</updated>
+            <updated>2025-05-26T18:00:44Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
@@ -251,7 +251,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
                 Privacy Policy
                 
             </title>
-            <updated>2025-05-26T16:44:41Z</updated>
+            <updated>2025-05-26T18:00:44Z</updated>
             <id>https://doppelbot.jsbox.xyz//privacy-policy/</id>
             <content type="html">
                 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Last Update: May 5, 2025&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -290,7 +290,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Important Announcement Regarding Privacy
                 
             </title>
-            <updated>2025-05-26T16:44:41Z</updated>
+            <updated>2025-05-26T18:00:44Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/important-announcement-regarding-privacy/</id>
             <content type="html">
                 &lt;p&gt;In the light of recent developments regarding &lt;em&gt;a popular AI bot service&lt;/em&gt;, we would like to make a few statements regarding your privacy.&lt;/p&gt;
@@ -313,7 +313,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Happy 5th Birthday, DoppelBot!
                 
             </title>
-            <updated>2025-05-26T16:44:41Z</updated>
+            <updated>2025-05-26T18:00:44Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
@@ -332,7 +332,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
                 Home Page
                 
             </title>
-            <updated>2025-05-26T16:44:41Z</updated>
+            <updated>2025-05-26T18:00:44Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
                 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Welcome to DoppelBot!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -349,6 +349,7 @@ Use the Search Bar or the links below to navigate.&lt;/p&gt;
 &lt;p&gt;Guides:&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
 &lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/guides/getting-started/&quot;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/guides/environment-variables-explained/&quot;&gt;Environment Variables Explained&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Recent posts:&lt;/p&gt;
 &lt;ul class=&quot;block-language-dataview&quot;&gt;
@@ -364,7 +365,7 @@ Use the Search Bar or the links below to navigate.&lt;/p&gt;
                 Getting Started
                 
             </title>
-            <updated>2025-05-26T16:44:41Z</updated>
+            <updated>2025-05-26T18:00:44Z</updated>
             <id>https://doppelbot.jsbox.xyz//guides/getting-started/</id>
             <content type="html">
                 &lt;p&gt;DoppelBot is a free and open-source Discord bot for entertainment, with capabilities of playing music files and responding to the users&#39; custom responses (known as &amp;quot;tags&amp;quot;).&lt;/p&gt;
@@ -382,7 +383,8 @@ Please host the bot in a neutral location.&lt;/p&gt;
 &lt;li&gt;Clone our repository: &lt;code&gt;git clone https://github.com/alexavil/DoppelBot&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;cd&lt;/code&gt; to the directory, for example &lt;code&gt;cd DoppelBot&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Install all dependencies via &lt;code&gt;npm install&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Create the &lt;code&gt;.env&lt;/code&gt; file and fill it out according to &lt;a href=&quot;https://raw.githubusercontent.com/alexavil/DoppelBot/refs/heads/master/.env.example&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;the example&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Create the &lt;code&gt;.env&lt;/code&gt; file and fill it out according to &lt;a href=&quot;https://raw.githubusercontent.com/alexavil/DoppelBot/refs/heads/master/.env.example&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;the example&lt;/a&gt;.&lt;br /&gt;
+&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/guides/environment-variables-explained/&quot;&gt;Check out the guide if you need help.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Deploy the commands by running &lt;code&gt;node utils/deploy.js&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Launch the &lt;code&gt;index.js&lt;/code&gt; file: &lt;code&gt;node index.js&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
@@ -390,5 +392,80 @@ Please host the bot in a neutral location.&lt;/p&gt;
 
             </content>
             <link href="https://doppelbot.jsbox.xyz//guides/getting-started/" >
+        </entry>
+        <entry>
+            <title>
+                Environment Variables Explained
+                
+            </title>
+            <updated>2025-05-26T18:00:44Z</updated>
+            <id>https://doppelbot.jsbox.xyz//guides/environment-variables-explained/</id>
+            <content type="html">
+                &lt;p&gt;This guide will explain how to format the environment file for DoppelBot.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!NOTE] Before we start...&lt;br /&gt;
+This guide makes sure you&#39;ve followed the steps in the &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/guides/getting-started/&quot;&gt;Getting Started&lt;/a&gt; guide and copied &lt;a href=&quot;https://raw.githubusercontent.com/alexavil/DoppelBot/refs/heads/master/.env.example&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;the example&lt;/a&gt; from the repository to a &lt;code&gt;.env&lt;/code&gt; file.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;DoppelBot uses some environment variables which must be stored in the &lt;code&gt;.env&lt;/code&gt; file. The file must be created at the root folder of the bot, where your &lt;code&gt;index.js&lt;/code&gt; file is located.&lt;/p&gt;
+&lt;h4 id=&quot;variables-cheat-sheet&quot; tabindex=&quot;-1&quot;&gt;Variables Cheat Sheet&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Variable&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;NAME&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The username. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Required.&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;NAME=DoppelBot&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;TOKEN&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The bot token. Get the token &lt;a href=&quot;https://discord.com/developers/applications&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;and store it in a safe place. &lt;br /&gt;&lt;em&gt;&lt;strong&gt;Never share your token with anyone, including the developers.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Required.&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;TOKEN=xxx&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;CLIENTID&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The Discord application ID. Get it &lt;a href=&quot;https://discord.com/developers/applications&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Required for deploying commands.&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;CLIENTID=000&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;OWNERS&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The user ID(s) of the bot owner(s). The list must be comma-separated.&lt;br /&gt;Owners have access to special administrator features.&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Required.&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;OWNERS=000,111&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;AVATAR&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;The avatar. Can be a path to a file or a link.&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Optional, will use Discord&#39;s default avatar if not set.&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;AVATAR=./avatar.png&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;ACTIVITIES&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;A list of possible bot status messages. The list must be comma-separated.&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Optional, status will be empty if not set.&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;ACTIVITIES=Portal 2, Team Fortress 2&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;TELEMETRY&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Activates Sentry. Accepts only &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;false&lt;/code&gt; values.&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Optional, defaults to &lt;code&gt;false&lt;/code&gt;.&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;TELEMETRY=true&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;DEBUG&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Activates Debug Mode. Accepts only &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;false&lt;/code&gt; values.&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Optional, defaults to &lt;code&gt;false&lt;/code&gt;.&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;DEBUG=true&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+            </content>
+            <link href="https://doppelbot.jsbox.xyz//guides/environment-variables-explained/" >
         </entry>
 </feed>

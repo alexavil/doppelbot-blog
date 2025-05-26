@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Privacy Policy</title>
+<title>Environment Variables Explained</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -65,41 +65,93 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-05-26T18:00:52.726Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-05-26T18:00:52.726Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-05-26T18:00:52.726Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Privacy Policy</h1>
+<h1 data-note-icon="">Environment Variables Explained</h1>
 <div class="header-meta">
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-04-09T15:52:50.000+04:00"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2025-05-26T21:39:38.992+04:00"></span></div></div></div>
 </header>
-<p><em><strong>Last Update: May 5, 2025</strong></em></p>
-<p>This Privacy Policy governs the collection, use, and sharing of personal information by DoppelBot and its instances. By deploying and using the bot, you agree to the terms of this Privacy Policy.</p>
-<p><strong><em>Information We Collect</em></strong></p>
-<p>We use Sentry (<a href="https://sentry.io/" target="_blank" class="external-link">https://sentry.io/</a>) to collect logs and reports necessary to provide support, bug fixes and stability improvements for the bot.<br>
-Telemetry is optional and disabled by default unless you enable the Telemetry or Debug Mode flags.</p>
-<p>We collect the following information via Sentry:</p>
-<ul>
-<li>Your Geolocation: Country, City, Timezone and System Locale of a machine running DoppelBot or its instances</li>
-<li>Your Machine Specifications: OS, CPU, RAM, Boot Time</li>
-<li>Stack Traces and Logs</li>
-</ul>
-<p><strong><em>How We Use Your Information</em></strong></p>
-<p>We use your information to operate and improve DoppelBot and its instances. We may also use your information to develop new features or services, provide bug fixes and stability improvements.</p>
-<p>We do not use your information to train AI as we do not have any AI features.</p>
-<p>We do not have access and not share your or your bot's credentials. All credentials are stored locally on your machine and are only used to run DoppelBot and its instances.</p>
-<p><strong><em>Sharing Your Information</em></strong></p>
-<p>We do not sell or share your personal information with third parties.</p>
-<p><strong><em>Data Retention</em></strong></p>
-<p>We retain your information for as long as necessary depending on the information type.</p>
-<p><strong><em>Data Security</em></strong></p>
-<p>We take reasonable measures to protect your information from unauthorized access, alteration, or destruction. However, no security measure is perfect, and we cannot guarantee the security of your information.</p>
-<p><strong><em>Changes to this Policy</em></strong></p>
-<p>We may update this Privacy Policy, and we will post the updated policy on our website. Your use of updated versions of DoppelBot and its instances after we make changes to this policy indicates your acceptance of the revised policy.</p>
-<p>You will be sent a notification if any changes require your consent. You may continue to follow the older version of this Policy by using the older version of the bot.</p>
-<p><strong><em>Effective Date</em></strong></p>
-<p>This Privacy Policy is effective as of May 5, 2025.</p>
-<p><a class="internal-link" target="" data-note-icon="" href="/">Home</a></p>
+<p>This guide will explain how to format the environment file for DoppelBot.</p>
+<div class="callout" data-callout="note"><div class="callout-title"><div class="callout-title-inner"> Before we start...<br></div></div>
+<div class="callout-content">
+<p>
+This guide makes sure you've followed the steps in the <a class="internal-link" target="" data-note-icon="" href="/guides/getting-started/">Getting Started</a> guide and copied <a href="https://raw.githubusercontent.com/alexavil/DoppelBot/refs/heads/master/.env.example" target="_blank" class="external-link">the example</a> from the repository to a <code>.env</code> file.</p>
+</div></div>
+<p>DoppelBot uses some environment variables which must be stored in the <code>.env</code> file. The file must be created at the root folder of the bot, where your <code>index.js</code> file is located.</p>
+<h4 id="variables-cheat-sheet" tabindex="-1">Variables Cheat Sheet</h4>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NAME</code></td>
+<td>The username. <br><em><strong>Required.</strong></em></td>
+<td><code>NAME=DoppelBot</code></td>
+</tr>
+<tr>
+<td><code>TOKEN</code></td>
+<td>The bot token. Get the token <a href="https://discord.com/developers/applications" target="_blank" class="external-link">here</a>and store it in a safe place. <br><em><strong>Never share your token with anyone, including the developers.</strong></em><br><em><strong>Required.</strong></em></td>
+<td><code>TOKEN=xxx</code></td>
+</tr>
+<tr>
+<td><code>CLIENTID</code></td>
+<td>The Discord application ID. Get it <a href="https://discord.com/developers/applications" target="_blank" class="external-link">here</a>.<br><em><strong>Required for deploying commands.</strong></em></td>
+<td><code>CLIENTID=000</code></td>
+</tr>
+<tr>
+<td><code>OWNERS</code></td>
+<td>The user ID(s) of the bot owner(s). The list must be comma-separated.<br>Owners have access to special administrator features.<br><em><strong>Required.</strong></em></td>
+<td><code>OWNERS=000,111</code></td>
+</tr>
+<tr>
+<td><code>AVATAR</code></td>
+<td>The avatar. Can be a path to a file or a link.<br><em><strong>Optional, will use Discord's default avatar if not set.</strong></em></td>
+<td><code>AVATAR=./avatar.png</code></td>
+</tr>
+<tr>
+<td><code>ACTIVITIES</code></td>
+<td>A list of possible bot status messages. The list must be comma-separated.<br><em><strong>Optional, status will be empty if not set.</strong></em></td>
+<td><code>ACTIVITIES=Portal 2, Team Fortress 2</code></td>
+</tr>
+<tr>
+<td><code>TELEMETRY</code></td>
+<td>Activates Sentry. Accepts only <code>true</code> and <code>false</code> values.<br><em><strong>Optional, defaults to <code>false</code>.</strong></em></td>
+<td><code>TELEMETRY=true</code></td>
+</tr>
+<tr>
+<td><code>DEBUG</code></td>
+<td>Activates Debug Mode. Accepts only <code>true</code> and <code>false</code> values.<br><em><strong>Optional, defaults to <code>false</code>.</strong></em></td>
+<td><code>DEBUG=true</code></td>
+</tr>
+<tr>
+<td><a class="internal-link" target="" data-note-icon="" href="/">Home</a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
 </main>
 <aside>
 <div class="sidebar">
 <div class="sidebar-container">
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#variables-cheat-sheet">Variables Cheat Sheet</a>
+</li>
+</ol>
+</nav>
+</div>
+</div>
 </div>
 </div>
 </aside>
