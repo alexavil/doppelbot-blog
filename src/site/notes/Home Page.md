@@ -3,26 +3,26 @@
 ---
 
 
-**_Welcome to DoppelBot!_**
+### **_Welcome to DoppelBot!_**
 
 This website hosts our collection of DoppelBot updates, as well as development logs.
 
 > [!info]
 > Use the Search Bar or the links below to navigate.
 
-Useful links:
+#### Useful links:
 
 - [[Update History\|Update History]]
 - [[Privacy Policy\|Privacy Policy]]
 
-Guides:
+#### Guides:
 
 - [[Guides/Getting Started\|Getting Started]]
 - [[Guides/Environment Variables Explained\|Environment Variables Explained]]
 
 { .block-language-dataview}
 
-Recent posts:
+#### Recent posts:
 
 - [[Posts/Important Announcement Regarding Privacy\|Important Announcement Regarding Privacy]]
 - [[Posts/Happy 5th Birthday, DoppelBot!\|Happy 5th Birthday, DoppelBot!]]
