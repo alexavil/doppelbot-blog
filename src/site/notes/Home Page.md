@@ -18,6 +18,7 @@ Useful links:
 Guides:
 
 - [[Guides/Getting Started\|Getting Started]]
+- [[Guides/Environment Variables Explained\|Environment Variables Explained]]
 
 { .block-language-dataview}
 

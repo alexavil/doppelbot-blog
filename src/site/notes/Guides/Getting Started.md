@@ -21,6 +21,7 @@ We encourage the bot to be self-hosted. Please follow this guide to install the 
 4. `cd` to the directory, for example `cd DoppelBot`.
 5. Install all dependencies via `npm install`.
 6. Create the `.env` file and fill it out according to [the example](https://raw.githubusercontent.com/alexavil/DoppelBot/refs/heads/master/.env.example).
+   [[Guides/Environment Variables Explained\|Check out the guide if you need help.]]
 7. Deploy the commands by running `node utils/deploy.js`.
 8. Launch the `index.js` file: `node index.js`.
 
