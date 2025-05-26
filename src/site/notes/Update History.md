@@ -4,7 +4,11 @@
 
 
 These patch notes are preserved for historic purposes.
+### DoppelBot Hotfix - May 26, 2025
 
+- Fixed tag-related commands not displaying messages correctly.
+- Data, cache and logs folders should now be created correctly.
+- Minor Debug Mode maintenance.
 ### DoppelBot Hotfix - April 16, 2025
 
 - Fixed the 25 track & tag limit.
