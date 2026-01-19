@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://doppelbot.jsbox.xyz/">
     <title>DoppelBot</title>
-    <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" >
-    <link href="https://doppelbot.jsbox.xyz/" >
-    <updated>2025-05-26T18:11:14Z</updated>
+    <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self" />
+    <link href="https://doppelbot.jsbox.xyz/" />
+    <updated>2026-01-19T14:31:00Z</updated>
     <id>https://doppelbot.jsbox.xyz/</id>
         <entry>
             <title>
                 Update History
                 
             </title>
-            <updated>2025-05-26T18:11:03Z</updated>
+            <updated>2026-01-19T14:30:49Z</updated>
             <id>https://doppelbot.jsbox.xyz//update-history/</id>
             <content type="html">
                 &lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
@@ -244,14 +244,14 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
 
             </content>
-            <link href="https://doppelbot.jsbox.xyz//update-history/" >
+            <link href="https://doppelbot.jsbox.xyz//update-history/" />
         </entry>
         <entry>
             <title>
                 Privacy Policy
                 
             </title>
-            <updated>2025-05-26T18:11:03Z</updated>
+            <updated>2026-01-19T14:30:49Z</updated>
             <id>https://doppelbot.jsbox.xyz//privacy-policy/</id>
             <content type="html">
                 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Last Update: May 5, 2025&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
@@ -283,14 +283,14 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
 
             </content>
-            <link href="https://doppelbot.jsbox.xyz//privacy-policy/" >
+            <link href="https://doppelbot.jsbox.xyz//privacy-policy/" />
         </entry>
         <entry>
             <title>
                 Important Announcement Regarding Privacy
                 
             </title>
-            <updated>2025-05-26T18:11:03Z</updated>
+            <updated>2026-01-19T14:30:49Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/important-announcement-regarding-privacy/</id>
             <content type="html">
                 &lt;p&gt;In the light of recent developments regarding &lt;em&gt;a popular AI bot service&lt;/em&gt;, we would like to make a few statements regarding your privacy.&lt;/p&gt;
@@ -306,14 +306,14 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
 
             </content>
-            <link href="https://doppelbot.jsbox.xyz//posts/important-announcement-regarding-privacy/" >
+            <link href="https://doppelbot.jsbox.xyz//posts/important-announcement-regarding-privacy/" />
         </entry>
         <entry>
             <title>
                 Happy 5th Birthday, DoppelBot!
                 
             </title>
-            <updated>2025-05-26T18:11:03Z</updated>
+            <updated>2026-01-19T14:30:49Z</updated>
             <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
             <content type="html">
                 &lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
@@ -325,14 +325,14 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
 
             </content>
-            <link href="https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/" >
+            <link href="https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/" />
         </entry>
         <entry>
             <title>
                 Home Page
                 
             </title>
-            <updated>2025-05-26T18:11:03Z</updated>
+            <updated>2026-01-19T14:30:49Z</updated>
             <id>https://doppelbot.jsbox.xyz//</id>
             <content type="html">
                 &lt;h3 id=&quot;strong-em-welcome-to-doppel-bot-em-strong&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;&lt;em&gt;Welcome to DoppelBot!&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;
@@ -358,14 +358,14 @@ Use the Search Bar or the links below to navigate.&lt;/p&gt;
 &lt;/ul&gt;
 
             </content>
-            <link href="https://doppelbot.jsbox.xyz//" >
+            <link href="https://doppelbot.jsbox.xyz//" />
         </entry>
         <entry>
             <title>
                 Getting Started
                 
             </title>
-            <updated>2025-05-26T18:11:03Z</updated>
+            <updated>2026-01-19T14:30:49Z</updated>
             <id>https://doppelbot.jsbox.xyz//guides/getting-started/</id>
             <content type="html">
                 &lt;p&gt;DoppelBot is a free and open-source Discord bot for entertainment, with capabilities of playing music files and responding to the users&#39; custom responses (known as &amp;quot;tags&amp;quot;).&lt;/p&gt;
@@ -391,14 +391,14 @@ Please host the bot in a neutral location.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
 
             </content>
-            <link href="https://doppelbot.jsbox.xyz//guides/getting-started/" >
+            <link href="https://doppelbot.jsbox.xyz//guides/getting-started/" />
         </entry>
         <entry>
             <title>
                 Environment Variables Explained
                 
             </title>
-            <updated>2025-05-26T18:11:03Z</updated>
+            <updated>2026-01-19T14:30:49Z</updated>
             <id>https://doppelbot.jsbox.xyz//guides/environment-variables-explained/</id>
             <content type="html">
                 &lt;p&gt;This guide will explain how to format the environment file for DoppelBot.&lt;/p&gt;
@@ -462,6 +462,7 @@ This guide makes sure you&#39;ve followed the steps in the &lt;a class=&quot;int
 &lt;p&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://doppelbot.jsbox.xyz/&quot;&gt;Home&lt;/a&gt;&lt;/p&gt;
 
             </content>
-            <link href="https://doppelbot.jsbox.xyz//guides/environment-variables-explained/" >
+            <link href="https://doppelbot.jsbox.xyz//guides/environment-variables-explained/" />
         </entry>
 </feed>
+
