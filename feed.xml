@@ -3,10 +3,10 @@
   <title>DoppelBot</title>
   <link href="https://doppelbot.jsbox.xyz//feed.xml" rel="self"/>
   <link href="https://doppelbot.jsbox.xyz/"/>
-  <updated>2026-02-20T18:07:56Z</updated>
+  <updated>2026-07-06T18:39:36Z</updated>
   <id>https://doppelbot.jsbox.xyz/</id><entry>
     <title>Update History</title>
-    <updated>2026-02-20T18:07:44Z</updated>
+    <updated>2026-07-06T18:39:22Z</updated>
     <id>https://doppelbot.jsbox.xyz//update-history/</id>
     <content type="html">&lt;p&gt;These patch notes are preserved for historic purposes.&lt;/p&gt;
 &lt;h3 id=&quot;doppel-bot-hotfix-may-26-2025&quot; tabindex=&quot;-1&quot;&gt;DoppelBot Hotfix - May 26, 2025&lt;/h3&gt;
@@ -241,7 +241,7 @@ You can now put multiple songs in DoppelBot for it to play. No more fighting for
     <link href="https://doppelbot.jsbox.xyz//update-history/"/>
   </entry><entry>
     <title>Privacy Policy</title>
-    <updated>2026-02-20T18:07:44Z</updated>
+    <updated>2026-07-06T18:39:22Z</updated>
     <id>https://doppelbot.jsbox.xyz//privacy-policy/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Last Update: May 5, 2025&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This Privacy Policy governs the collection, use, and sharing of personal information by DoppelBot and its instances. By deploying and using the bot, you agree to the terms of this Privacy Policy.&lt;/p&gt;
@@ -274,7 +274,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
     <link href="https://doppelbot.jsbox.xyz//privacy-policy/"/>
   </entry><entry>
     <title>Important Announcement Regarding Privacy</title>
-    <updated>2026-02-20T18:07:44Z</updated>
+    <updated>2026-07-06T18:39:22Z</updated>
     <id>https://doppelbot.jsbox.xyz//posts/important-announcement-regarding-privacy/</id>
     <content type="html">&lt;p&gt;In the light of recent developments regarding &lt;em&gt;a popular AI bot service&lt;/em&gt;, we would like to make a few statements regarding your privacy.&lt;/p&gt;
 &lt;ul&gt;
@@ -291,7 +291,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
     <link href="https://doppelbot.jsbox.xyz//posts/important-announcement-regarding-privacy/"/>
   </entry><entry>
     <title>Happy 5th Birthday, DoppelBot!</title>
-    <updated>2026-02-20T18:07:44Z</updated>
+    <updated>2026-07-06T18:39:22Z</updated>
     <id>https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/</id>
     <content type="html">&lt;p&gt;&lt;img src=&quot;https://doppelbot.jsbox.xyz/img/user/Attachments/kogasa-bday.png&quot; alt=&quot;kogasa-bday.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;5 years ago, we created DoppelBot - a silly bot that sent pictures of Doppelganger Arle. Over the past years, we tried to make it a useful, free and open-source entertainment bot. We shifted from simple images to music, and while DoppelBot certainly has its ups and downs, I imagine some people are glad it exists.&lt;/p&gt;
@@ -304,7 +304,7 @@ Telemetry is optional and disabled by default unless you enable the Telemetry or
     <link href="https://doppelbot.jsbox.xyz//posts/happy-5th-birthday-doppel-bot/"/>
   </entry><entry>
     <title>Getting Started</title>
-    <updated>2026-02-20T18:07:44Z</updated>
+    <updated>2026-07-06T18:39:22Z</updated>
     <id>https://doppelbot.jsbox.xyz//guides/getting-started/</id>
     <content type="html">&lt;p&gt;DoppelBot is a free and open-source Discord bot for entertainment, with capabilities of playing music files and responding to the users&#39; custom responses (known as &amp;quot;tags&amp;quot;).&lt;/p&gt;
 &lt;p&gt;We encourage the bot to be self-hosted. Please follow this guide to install the bot.&lt;/p&gt;
@@ -331,7 +331,7 @@ Please host the bot in a neutral location.&lt;/p&gt;
     <link href="https://doppelbot.jsbox.xyz//guides/getting-started/"/>
   </entry><entry>
     <title>Environment Variables Explained</title>
-    <updated>2026-02-20T18:07:44Z</updated>
+    <updated>2026-07-06T18:39:22Z</updated>
     <id>https://doppelbot.jsbox.xyz//guides/environment-variables-explained/</id>
     <content type="html">&lt;p&gt;This guide will explain how to format the environment file for DoppelBot.&lt;/p&gt;
 &lt;blockquote&gt;
